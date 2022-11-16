@@ -23,7 +23,7 @@ private EmployeeRepository empRepository;
 
 public String saveEmployee(@RequestBody Employee employee)
 {  try
-{   System.out.println("inside try");
+{   System.out.println("inside try1");
 	empRepository.save(employee);
 	
 }
